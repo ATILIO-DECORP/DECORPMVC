@@ -1,6 +1,6 @@
 using System;
 
-namespace DECORPMVC.Models
+namespace DECORPMVC.Models.ViewModels
 {
     public class ErrorViewModel
     {

@@ -4,7 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using DECORPMVC.Models;
+using DECORPMVC.Models.ViewModels;
+    
 
 namespace DECORPMVC.Controllers
 {
@@ -24,8 +25,14 @@ namespace DECORPMVC.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your contact page.mmm";
 
+            return View();
+        }
+
+        public IActionResult Contato()
+        {
+            ViewData["Message"] = "Sua Pagina de Contato.";
             return View();
         }
 
